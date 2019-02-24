@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> Уеб приложения </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss1.css" rel="stylesheet" type="text/css"/>
+
+        <style>
+            img{
+                width: 20%;
+                height: 100%;
+            }
+            h1{
+                text-align: center;
+                font-variant: small-caps;
+                color: rgb(102, 0, 34);
+                text-shadow: 1px 20px rgb(255, 230, 243);
+            }
+            p{
+                color: rgb(235, 235, 235);
+            }
+            body{
+                background-image: url("back.jpg");
+                background-repeat: no-repeat;
+                background-size: 150%;
+            }
+            button{
+                margin-left: 8px;
+                padding: 8px 15px;
+                font-size: 15px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                font-style: italic;
+                background-color: rgb(26, 0, 13);
+                border-radius: 15px;
+                border:none;
+                box-shadow: 1px 3px 7px #999;
+            }
+            div{
+                display: flex;
+                margin-left: 30%;
+            }
+            @media only screen and (max-width: 768px) {
+                body {
+                    display: block;
+                    background-repeat: repeat;
+                }
+                div {
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> Уеб приложения </h1>
+        <p>
+            Това са софтуерни приложения, които се държат по начин, подобен на нативни приложения. Уеб приложенията използват браузър, който се изпълнява и обикновено се записват в HTML5, JavaScript или CSS. Тези приложения пренасочват потребител към URL адрес и предлагат опция "инсталиране", като просто създават маркер на своята страница.
+
+            Уеб приложенията изискват минимално памет на устройството, като правило. Тъй като всички лични бази данни се записват на сървър, потребителите могат да получат достъп от всяко устройство, когато има връзка с интернет. Ето защо използването на уеб приложения с лошо свързване би довело до лошо потребителско преживяване. Недостатъкът е достъпът до не толкова API за разработчиците, с изключение на геолокацията и малко други.
+        </p>
+        <br/>
+    <center>
+        <img src="webapps.png" alt=""/>
+    </center>
+    <div>
+        <button>
+            <a href="index.html"> Начална страница </a>
+        </button>
+        <button>
+            <a href="native apps.html"> Естествени приложения </a>
+        </button>
+        <br/>
+        <button>
+            <a href="hybrid apps.html"> Хибридни приложения </a>
+        </button>
+        <br/>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> Контакти </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss1.css" rel="stylesheet" type="text/css"/>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous">
+
+        </script>
+
+        <script src="newjavascript.js" type="text/javascript"></script>
+
+        <style>
+            h2{
+                font-style: italic;
+                font-size: 20px;
+                color: whitesmoke;
+                text-align: center;
+                text-shadow: 1px 3px 20px darkred;
+            }
+
+            body{
+                background-image: url("contact.gif");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            div{
+                display: flex;
+            }
+            form{
+                margin-left: 15%;
+            }
+            label{
+                color: whitesmoke;
+            }
+            p{
+                color: whitesmoke;
+                font-weight: bold;
+                font-style: italic;
+            }
+            img{
+                width: 5%;
+                height: 12%;
+                cursor: pointer;
+            }
+            button{
+                margin-left: 15%;
+                font-size: 15px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                font-style: italic;
+                height: 43px;
+                background-color: rgb(10, 10, 41);
+                border-radius: 15px;
+                box-shadow: 1px 3px 7px whitesmoke;
+                border: 1px solid whitesmoke;
+            }
+            @media only screen and (max-width: 768px) {
+                body {
+                    background-repeat: repeat;
+                }
+                div {
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--        Заглавие-->
+        <h2> Ако имате въпроси можете да ни изпратите запитване във формата по долу </h2>
+
+        <!--        Форма и текст-->
+        <div>
+            <form>
+                <input type="text" name="fname" placeholder="Име"><br>
+                <input type="text" name="lname" placeholder="Фамилия">
+                <br/><br/>
+                <input type="email" name="email" placeholder="Имейл адрес:">
+                <br/><br/>
+                <label> Моля, въведете вашия пол: </label>
+                <br/>
+                <input type="text" placeholder="Пол:">
+                <br/>
+                <br>
+                <textarea rows="4" cols="50" placeholder="Напишете своето запитване тук: "> </textarea>
+                <br/>
+                <input onClick="MyFunction()" type="submit" value="Изпрати">
+            </form>
+
+            <p>
+                Телефон за връзка: +359/+++ <br/>
+                Email: +++@gmail.com <br/>
+                Адрес: Град Варна, бул...., ул.000
+                <br/>
+                Кликнете тук:<img onClick="openInNewTab('https://www.google.com/maps/place/Naval+Academy/@43.2119297,27.9308239,17z/data=!3m1!4b1!4m5!3m4!1s0x40a4541aac9da1ab:0x780f7a1dbc94222a!8m2!3d43.2119297!4d27.9330126');" src="mapfavicon.png" alt=""/>
+            </p>
+        </div>
+
+        <br/>
+        <!--       Бутонче-->
+        <button>
+            <a href="index.html"> Начална страница </a>
+        </button>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+    <head>
+        <!--     Заглавие на страницата , мета данни и линк към външен css за хипервръзките да бъдат без подчертаване-->
+        <title> Бизнес приложения </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss1.css" rel="stylesheet" type="text/css"/>
+        
+        <!--        CSS на страницата-->
+        <style>
+            img{
+                margin-left: 35%;
+                width: 40%;
+                height: 100%;
+            }
+            h1{
+                text-align: center;
+                font-variant: small-caps;
+                color: rgb(102, 0, 34);
+                text-shadow: 0px 1px 40px rgb(255, 230, 243);
+            }
+
+            h3{
+                color: whitesmoke;
+                font-weight: bold;
+            }
+
+            p{
+                font-size: 18px;
+                color: rgb(235, 235, 235);
+            }
+
+            .ul{
+                color: whitesmoke;
+            }
+
+            body{
+                background-image: url("fon.jpg");
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            div{
+                display: flex;
+            }
+
+            button{
+                font-size: 15px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                font-style: italic;
+                height: 50px;
+                background-color: rgb(10, 10, 41);
+                border-radius: 15px;
+                box-shadow: 1px 3px 7px whitesmoke;
+                border: 1px solid whitesmoke;
+            }
+            /*            Промяна на background фона като се repeat-ва и навигацията ни става една под друга*/
+            @media only screen and (max-width: 768px) {
+                body {
+                    display: block;
+                    background-repeat: repeat;
+                }
+                div {
+                    display: block;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--        Заглавие -->
+        <h1> Бизнес приложения </h1>
+        <!--        Текст-->
+        <p>
+            Също така наричани приложения за производителност, те заемат второ място със значителен дял от 10%. Съвременните смартфони са в състояние да изпълняват много сложни задачи по време на работа.
+
+            Таксуване, закупуване, резервация, изпращане на имейли, проследяване на прогреса на работа - вие го наименувате. Бизнес приложенията варират от приложения B2B до офис и лични приложения, за да се увеличи производителността и да се намалят разходите: Представете си, че можете да намерите програмисти на приложения за Android, да наемете нов мениджър продажби или да купите нови касети за офис принтери само с едно докосване.
+        </p>
+        <br/>
+        <h3> Примери за бизнес приложения: </h3>
+
+        <!--        Листчета с линкове към определената страница-->
+        <ul class="ul" >
+            <li> Adobe Acrobat Reader (<a href="https://play.google.com/store/apps/details?id=com.adobe.reader&hl=ru" target="_blank">  Android </a> & <a href="https://itunes.apple.com/us/app/adobe-acrobat-reader-annotate/id469337564?mt=8" target="_blank"> IOS </a>) </li>
+            <li> Voxer Walkie Talkie Messenger (<a href="https://play.google.com/store/apps/details?id=com.rebelvox.voxer&hl=ru" target="_blank"> Android </a> & <a href="https://itunes.apple.com/us/app/voxer-walkie-talkie-messenger/id377304531?mt=8" target="_blank"> IOS </a>) </li>
+            <li> Facebook Pages Manager (<a href="https://play.google.com/store/apps/details?id=com.facebook.pages.app&hl=ru" target="_blank"> Android </a> & <a href="https://itunes.apple.com/us/app/facebook-pages-manager/id514643583?mt=8" target="_blank"> IOS </a>) </li>
+        </ul>
+
+        <!--         Видео-->
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Fs4GejM-LUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    <br/>
+    <br/>
+
+    <!--        Навигация чрез бутони-->
+    <div>
+        <button>
+            <a href="index.html"> Начална страница </a>
+        </button>
+        <button>
+            <a href="categoriesmobapps.html"> Категории мобилни приложения </a>
+        </button>
+        <button>
+            <a href="Gaming apps.html"> Приложения за игри </a>
+        </button>
+        <button>
+            <a href="Business apps.html"> Образователни приложения </a>
+        </button>
+        <button>
+            <a href="Entertainment apps.html"> Приложения за забавление </a>
+        </button>
+        <button>
+            <a href="Lifestyle apps.html"> Приложения за начин на живот </a>
+        </button>
+        <button>
+            <a href="Travel apps.html"> Приложения за пътуване </a>
+        </button>
+        <button>
+            <a href="Utility apps.html"> Полезни приложения </a>
+        </button>
+    </div>
+
+</body>
+</html>

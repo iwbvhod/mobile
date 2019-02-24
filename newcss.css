@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2018, 6:33:47 PM
+    Author     : M
+*/
+.zaglavie_logo_slogan{
+    display: flex;
+}
+.h1_slogan{
+    margin-left: 5%;
+}
+
+.slogan{
+    background-image: url("snowflakes.gif");
+    text-shadow: 5px 5px 30px rgb(26, 0, 0);
+    color: cadetblue;
+    font-style: italic;
+    margin-right:10%;
+}
+
+h1{
+    background-image: url("snowflakes.gif");
+    font-variant: small-caps;
+    color: rgb(26, 0, 0);
+    margin-left: 15%;
+    font-kerning: normal;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: oblique;
+    text-shadow: 3px 1px 30px rgb(242, 242, 242);
+}
+h4{
+    font-weight: bold;
+    font-style: italic;
+    color: wheat;
+}
+.logo{
+    margin-left: 25%;
+    width: 50%;
+    height: 80%;
+}
+
+p{
+    text-align: center;
+    text-shadow: 2px 2px 15px rgb(51, 0, 17);
+    color: rgb(255, 204, 221);
+    font-size: 20px;
+    font-family: Serif, Courier New, Lucida Console;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button{
+    background-color: rgb(26, 0, 51);
+    font-size: 20px;
+    list-style: none;
+    border: 1px solid rgb(26, 0, 13);
+    margin-left: 0.1%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 11px;
+    box-shadow: 8px 5px 20px rgb(13, 0, 26);
+}
+a{
+    color: rgb(255, 179, 204);
+    text-decoration: none;
+    text-shadow: 1px 1px 20px rgb(255, 128, 170);
+    text-align: center;
+}
+
+.button:hover{
+    background-color: rgb(255, 179, 214);
+}
+.button:hover a{
+    color: rgb(31, 31, 46);
+}
+
+ul{
+    display: flex;
+}
+
+nav {
+    margin-left: 10%;
+}
+
+body{
+    background-image: url("snow.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(51, 0, 0);
+}
+
+.elementi{
+    display: flex;
+}
+
+.snimka{
+    width: 25%;
+    height: 25%;
+    margin-left: 1%;
+}
+
+.snowman{
+    width: 30%;
+    height: 100%;
+}
+
+.contactfavicon{
+    width: 20px;
+    height: 20px;
+}
+
+iframe {
+    margin-left: 10%;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 30px rgb(255, 230, 230);
+}
+
+.footerfavicon{
+    width: 30px;
+    height: 30px; 
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background: blue;
+    }
+    ul {
+        display: block;
+    }
+}

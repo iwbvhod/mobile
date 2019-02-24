@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <!--        Заглавие , метаданни , линк към външен css и линк към favicon-->
+        <title> Мобилни приложения </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" href="mb.png" sizes="16x16" type="image/png">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous">
+
+        </script>
+
+        <script src="newjavascript.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        <!--        Заглавие и span-че с уникален номер "demo" -->
+        <h4 align="right" > Сайтът е последно модифициран на: <span id="demo"></span></h4>
+
+        <!--        Вътрешен JavaSCript -->
+        <script>
+                    document.getElementById("demo").innerHTML = document.lastModified;
+        </script>
+
+        <!--        div с лого, текст и слоган към сайта-->
+        <div class="zaglavie_logo_slogan">
+
+            <a href="index.html">
+                <img class="logo" src="mobileapps.png" alt=""/>
+            </a>
+
+            <div class="h1_slogan">
+                <h1> Мобилни приложения </h1>               
+                <h2>
+                    <a class="slogan" href="index.html">
+                        Мобилните приложения - форма на живот, създадена от код
+                    </a>
+                </h2>
+            </div>
+
+        </div>
+
+        <!--        Навигация с листчета-->
+        <nav>
+            <ul>
+                <li class="button"><a href="mobile app.html"> Мобилно приложение </a> </li>
+                <li class="button"><a href="variations.html"> Видове мобилни приложения </a> </li>
+                <li class="button"><a href="categoriesmobapps.html"> Категории мобилни приложения </a></li>
+                <li class="button"><a href="popular.html"> Известни приложения </a></li>
+                <li class="button"><a href="contacts.html"> <img class="contactfavicon" src="fav.png"/> Контакти </a> </li>
+            </ul>
+        </nav>
+
+        <!--         Текст-->
+        <br/>
+        <p>
+            Мобилното приложение е компютърна програма, създадена, за да работи на мобилни устройства като смартфони и таблети.<br/>
+            Повечето мобилни устройства се продават с предварително инсталирани приложения, като уеб браузър, e-mail клиент, <br/>
+            календар, картографско приложение и приложение, служещо за купуване на музика, медия или други приложения. <br/>
+            Някои предварително инсталирани пролежения могат да бъдат деинсталирани, за да се освободи място, докато други не могат.
+        </p>
+        <br/>
+        <!--        Div със гифчета и видео-->
+        <div class="elementi">
+            <img class="snimka" src="3.gif" alt=""/>
+
+            <iframe width="560" height="315"
+                    src="https://www.youtube-nocookie.com/embed/ZikVtdopsfY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+
+            <img class="snowman" src="snowman.gif" alt="aSnowman"/>
+        </div>
+
+        <br/>
+        <!--        footer или долната част на страницата със снимка и хипвервръзка към началната страница и текст-->
+        <footer> <a href="contacts.html"> <img class="footerfavicon" src="footer.png" alt="За контакти"/> </a> &COPY; Mobile Applications &Ropf; </footer>
+    </body>
+
+</html>
